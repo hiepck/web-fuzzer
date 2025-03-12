@@ -7,7 +7,7 @@ from fuzzer.xss import XSSFuzzer
 def main():
     if len(sys.argv) < 3:
         print("Usage: python main.py <url> <fuzz_type>")
-        print("fuzz_type: 'sql' for SQL Injection or 'xss' for XSS")
+        print("fuzz_type: 'sqli' for SQL Injection or 'xss' for XSS")
         return
 
     url = sys.argv[1]
